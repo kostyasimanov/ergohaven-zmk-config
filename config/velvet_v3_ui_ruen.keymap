@@ -32,7 +32,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TO_CAPS_WORD";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&caps_word>;
+            bindings = <&kp RIGHT_SHIFT>, <&caps_word>;
         };
 
         zip_auto_mouse: zip_auto_mouse {
